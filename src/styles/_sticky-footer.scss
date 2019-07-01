@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  min-height: calc(100vh - 52px);
+}
+
+// @reach/router wrapper
+main > div {
+  width: 100%;
+  min-height: calc(100vh - 52px);
+}

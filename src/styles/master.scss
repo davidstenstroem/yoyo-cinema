@@ -1,0 +1,7 @@
+@import 'bulma';
+@import 'sticky-footer';
+@import 'spinner';
+
+.has-text-outlined-white {
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px #fff;
+}

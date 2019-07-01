@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "lib": ["es5", "es2015", "es2016", "es6", "dom", "esnext.asynciterable"],
+    "removeComments": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules/*"]
+}
